@@ -14,8 +14,8 @@ import { from } from 'rxjs';
 })
 
 export class HeroComponent implements OnInit {
-  heros: Hero[]
-  heroes = HEROES;
+  heroes: Hero[]
+  
   constructor(private heroService: HeroService) { }
 
   ngOnInit() {
